@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:baselineAligned="false">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ring_mode_radio_group">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/normal_radio_button"
+            android:text="@string/ring_mode_normal_display_name"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vibrate_radio_button"
+            android:text="@string/ring_mode_vibrate_display_name"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/silent_radio_button"
+            android:text="@string/ring_mode_silent_display_name"/>
+    </RadioGroup>
+
+</LinearLayout>

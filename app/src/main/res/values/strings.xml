@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SoundChange</string>
+    <string name="action_settings">Settings</string>
+    <string name="media_string">Media</string>
+    <string name="alarm_display_name">アラーム</string>
+    <string name="music_display_name">音楽再生音</string>
+    <string name="dtmf_display_name">ダイヤル音</string>
+    <string name="notification_display_name">通知音</string>
+    <string name="ring_display_name">電話呼び出し音</string>
+    <string name="system_display_name">システム音</string>
+    <string name="voice_call_display_name">通話音</string>
+    <string name="ring_mode_normal_display_name">ノーマル</string>
+    <string name="ring_mode_vibrate_display_name">バイブレーション</string>
+    <string name="ring_mode_silent_display_name">サイレント</string>
+    <string name="reflesh_button_display_name">リフレッシュ</string>
+</resources>

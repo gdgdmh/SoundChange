@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/music_line_layout"
+        android:layout_weight="0.1"/>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/ring_line_layout"
+        android:layout_weight="0.1"/>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/notification_line_layout"
+        android:layout_weight="0.1"/>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/voice_call_line_layout"
+        android:layout_weight="0.1"/>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/alarm_line_layout"
+        android:layout_weight="0.1"/>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/system_line_layout"
+        android:layout_weight="0.1"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"/>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/ring_mode_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:layout_gravity="right"
+        android:layout_weight="0.1"
+        android:enabled="false"
+        android:clickable="false"
+        android:checked="false"
+        android:id="@+id/headset_toggle_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reflesh_button_display_name"
+        android:id="@+id/refresh_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>
